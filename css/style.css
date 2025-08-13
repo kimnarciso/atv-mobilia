@@ -8,3 +8,88 @@ a{
     color: black; /* altera a cor de todos os links das páginas */
 }
 
+/* HEADER */
+
+header {
+  padding: 3vw 10vw;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li.atual a {
+  color: #fb2e86;
+}
+section.banner {
+  display: flex;
+  background-color: #f2f0ff;
+  padding: 3vw 10vw;
+  
+}
+section.banner div p.title {
+  color:#FB2E86;
+  font-weight: 600;
+  font-size: 1rem;
+   
+}
+section.banner h2 {
+  font-weight: bold;
+  font-size: 2.6rem;
+  padding: 15px 0;
+}
+section.banner p {
+  color: #8A8FB9;
+  font-size: 1rem;
+  font-weight: 600;
+}
+section.banner p button {
+  background-color:#FB2E86;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 2px;
+  margin: 3vw 0 0 0 ;
+}
+section.banner div.imagens {
+  width: 35%;
+  margin: 0 0 0 10%;
+}
+section.banner div.text {
+  padding: 3vw 18vw 0 0;
+}
+section.produtos {
+  padding: 3vw 10vw;
+}
+section.produtos h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #1a0b5b;
+  margin: 3vw;
+}
+section.produtos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section.produtos ul li {
+  width: 30%;
+}
+section.produtos ul li p {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+section.produtos ul li h3 {
+  padding: 1.5vw 0 3vw 0;
+  color: #151875;
+}
