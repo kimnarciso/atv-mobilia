@@ -93,3 +93,52 @@ section.produtos ul li h3 {
   padding: 1.5vw 0 3vw 0;
   color: #151875;
 }
+section.invite {
+  padding: 4vw 35vw;
+  background: url(../src/images/back-section-update.png);
+  background-position: center;
+  text-align: center;
+}
+section.invite h2 {
+  font-size: 2rem;
+  color: #151875;
+  font-weight: bold;
+}
+section.invite p button {
+  background-color: #FB2E86;
+  color: #fff;
+  padding: 10px 24px;
+  margin-top: 2vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+  background-color: #EEEFFB;
+}
+footer div h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 0 12px 0;
+}
+footer div nav h3 {
+  font-size: 1.4rem;
+  padding: 0 0 21px 0;
+}
+footer div p {
+  color: #8A8FB9;
+  padding: 6px 0;
+}
+footer div nav ul li {
+  padding: 8px 0;
+}
+footer div nav ul li a {
+  color: #8A8FB9;
+}
+section p button:hover {
+  background-color: transparent;
+  border: 1.5px solid #FB2E86;
+  color: #FB2E86;
+  border-radius: 16px;
+}
